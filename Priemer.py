@@ -1,5 +1,12 @@
-x = int(input("Zadaj prvé číslo:"))
-y = int(input("Zadaj druhé čislo:"))
-z = int(input("Zadaj tretie číslo:"))
-o =(x+y+z)/3
-print ("Priemer tvojich čisiel je:", o)
+x=0
+y=0
+
+z=True
+while z:
+    a = int(input("Zadaj číslo:"))
+    b = str(input("Chceš pokračovať?y/n:"))
+    if (b == "n"):
+        print (x/y) 
+    x=y+a
+    y=x+a
+
